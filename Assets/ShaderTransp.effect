@@ -1,0 +1,17 @@
+return
+{
+	-- This table contains a hypothetical list of texture paths
+	-- (using an array)
+
+	Shaders =
+	{
+	"data/vertex.shader",
+	"data/fragmenttransperent.shader",
+	},
+	renderstates =
+	{
+	Alpha_transperency = true,
+	Depth_testing = true,
+	Depth_writing = false,
+	},
+}

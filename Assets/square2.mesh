@@ -1,0 +1,36 @@
+return
+{
+	-- This table contains a hypothetical list of texture paths
+	-- (using an array)
+Vertices = 
+{
+	{
+		Position = {-5,-1,5},
+		Color = {1,1,1,1},
+	},
+
+	{
+	Position = {5,-1,5},
+	Color = {1,1,1,1},
+	},
+
+	{
+	Position = {5,-1,-5},
+	Color = {1,1,1,1},
+	},
+
+	{
+	Position = {-5,-1,-5},
+	Color = {1,1,1,1},
+	},
+
+},
+	
+	
+Index = 
+	{
+		{0,1,2 },
+		{0,2,3},
+		
+	},
+}
